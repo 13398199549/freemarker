@@ -4,7 +4,7 @@ public class Animal implements Cloneable{
 
 	private String name;
 	private Integer age;
-	public Animal() {
+	public Animal() { 
 		super();
 		// TODO Auto-generated constructor stub
 	}
