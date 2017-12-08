@@ -17,6 +17,7 @@
 
 	
 	<div class="container">
+	<#compress> <#-- compress用于去除空白区域 -->
 		<div class="row">
 			<div class="col-sm-3 col-md-6 col-lg-4" style="background: red">
 				123
@@ -71,6 +72,7 @@
 			</tbody>
 		</table>
 		
+		</#compress>
 		<!-- 标准的按钮 -->
 		<button type="button" class="btn btn-default">默认按钮</button>
 		<!-- 提供额外的视觉效果，标识一组按钮中的原始动作 -->
